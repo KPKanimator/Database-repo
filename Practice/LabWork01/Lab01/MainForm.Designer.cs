@@ -86,10 +86,11 @@
       // 
       // textBox1
       // 
-      textBox1.Location = new Point(431, 27);
+      textBox1.Dock = DockStyle.Right;
+      textBox1.Location = new Point(431, 24);
       textBox1.Multiline = true;
       textBox1.Name = "textBox1";
-      textBox1.Size = new Size(503, 589);
+      textBox1.Size = new Size(503, 595);
       textBox1.TabIndex = 3;
       // 
       // MainForm
