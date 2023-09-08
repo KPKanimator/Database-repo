@@ -44,5 +44,22 @@ namespace Lab01
       }
       statusStrip1.Items[1].Text = _list.Count.ToString();
     }
+
+    private void task1ToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      tbResult.Text = "";
+      int count = 0;
+      foreach (var item in _list)
+      {
+        var StudentSurname = tbSurname.Text.Trim();
+        if (item.StLastName == StudentSurname)
+        {
+          tbResult.Text += item.ToStringStudentClassTeacher();
+          count++;
+        }
+        if(count > 10)
+          break;
+      }
+    }
   }
 }

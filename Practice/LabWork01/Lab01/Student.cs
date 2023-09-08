@@ -21,5 +21,15 @@
       data += "Teacher FirstName:" + TFirstName + Environment.NewLine;
       return data;
     }
+    public string ToStringStudentClassTeacher()
+    {
+      string data = "Student LastName: " + StLastName + Environment.NewLine;
+      data += "Student FirstName: " + StFirstName + Environment.NewLine;
+      data += "Student Classroom: " + Classroom + Environment.NewLine;
+      data += "Teacher LastName: " + TLastName + Environment.NewLine;
+      data += "Teacher FirstName: " + TFirstName + Environment.NewLine;
+      data += "==========================================" + Environment.NewLine;
+      return data;
+    }
   }
 }
