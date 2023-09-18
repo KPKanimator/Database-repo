@@ -39,6 +39,7 @@
       groupBox1 = new GroupBox();
       label1 = new Label();
       tbSurname = new TextBox();
+      button1 = new Button();
       menuStrip1.SuspendLayout();
       statusStrip1.SuspendLayout();
       groupBox1.SuspendLayout();
@@ -107,6 +108,7 @@
       // 
       // groupBox1
       // 
+      groupBox1.Controls.Add(button1);
       groupBox1.Controls.Add(label1);
       groupBox1.Controls.Add(tbSurname);
       groupBox1.Location = new Point(12, 40);
@@ -131,6 +133,15 @@
       tbSurname.Name = "tbSurname";
       tbSurname.Size = new Size(341, 23);
       tbSurname.TabIndex = 0;
+      // 
+      // button1
+      // 
+      button1.Location = new Point(308, 75);
+      button1.Name = "button1";
+      button1.Size = new Size(75, 23);
+      button1.TabIndex = 2;
+      button1.Text = "Go";
+      button1.UseVisualStyleBackColor = true;
       // 
       // MainForm
       // 
@@ -167,5 +178,6 @@
     private GroupBox groupBox1;
     private Label label1;
     private TextBox tbSurname;
+    private Button button1;
   }
 }

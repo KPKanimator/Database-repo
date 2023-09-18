@@ -57,7 +57,7 @@ namespace Lab01
           tbResult.Text += item.ToStringStudentClassTeacher();
           count++;
         }
-        if(count > 10)
+        if (count > 10)
           break;
       }
     }
