@@ -373,3 +373,9 @@ MigrationBackup/
 #*/Lectures/*
 #Lectures/
 #/Lectures/
+
+# .src files& folders
+*/.src/*
+.src/
+/.src/
+.src
