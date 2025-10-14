@@ -1,6 +1,6 @@
 # Практична робота №1: Основи реляційної алгебри
 
-![image](https://github.com/KPKanimator/Database-repo/Practice/Practice05/src/title1.jpg)
+![image](https://github.com/KPKanimator/Database-repo/blob/main/Practice/Practice05/src/title1.jpg)
 
 ## Мета роботи
 
@@ -57,5 +57,6 @@ http://googleusercontent.com/image_generation_content/0
 ---
 
 ## Висновки
+
 
 Під час виконання практичної роботи я ознайомився(лась) з основними концепціями та операціями реляційної алгебри. Я навчився(лась) складати формальні запити для вибірки, проєкції, об'єднання та з'єднання даних, що дозволило глибше зрозуміти принципи роботи реляційних систем управління базами даних.
